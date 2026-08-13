@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abbas Khizar | Web Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>Abbas.</h2>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <p class="small-text">HELLO, I'M</p>
+
+            <h1>Abbas Khizar</h1>
+
+            <h2>Full Stack Web Developer</h2>
+
+            <p>
+                I build modern websites and web applications
+                using frontend and backend technologies.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="button">
+                    View My Projects
+                </a>
+
+                <a href="#contact" class="button secondary-button">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
+        <div class="profile-card">
+
+            <div class="profile-circle">
+                AK
+            </div>
+
+            <h3>Abbas Khizar</h3>
+
+            <p>Computer Science Student</p>
+
+            <div class="profile-info">
+                <span>💻 Web Development</span>
+                <span>🚀 Building Projects</span>
+                <span>📚 Always Learning</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- About -->
+ <section id="about" class="about">
+
+    <div class="section-container">
+
+        <p class="small-text">ABOUT ME</p>
+
+        <h2>Who I Am</h2>
+
+        <p>
+            I am a Computer Science student and aspiring Full Stack Web Developer.
+            I enjoy building websites and web applications and learning new
+            technologies.
+        </p>
+
+        <div class="skills">
+
+            <div class="skill">
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="skill">
+                <h3>Backend</h3>
+                <p>Node.js, APIs and Databases</p>
+            </div>
+
+            <div class="skill">
+                <h3>Tools</h3>
+                <p>Git, GitHub and VS Code</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    My personal portfolio website built while
+                    learning full-stack development.
+                </p>
+
+                <button onclick="showMessage()">
+                    View Project
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>Coming Soon</h3>
+
+                <p>
+                    More projects will be added as I continue
+                    learning web development.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                id="message"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="formMessage"></p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Abbas Khizar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
