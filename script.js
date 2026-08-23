@@ -5,14 +5,11 @@ function showMessage() {
 
 const form = document.getElementById("contactForm");
 
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function() {
 
-    event.preventDefault();
+    const button = form.querySelector("button");
 
-    const name = document.getElementById("name").value;
+    button.textContent = "Sending...";
+    button.disabled = true;
 
-    document.getElementById("formMessage").textContent =
-        `Thanks ${name}! Your message has been received.`;
-
-    form.reset();
 });
