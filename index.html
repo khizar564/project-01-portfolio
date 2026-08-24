@@ -2,39 +2,122 @@
 <html lang="en">
 
 <head>
+
+    <!-- ================= BASIC META ================= -->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Abbas Khizar | Full Stack Web Developer</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <link rel="stylesheet" href="style.css">
+    <meta
+        name="description"
+        content="Abbas Khizar — Computer Science student and Full Stack Web Developer building modern web applications, AI-powered projects and digital experiences."
+    >
+
+    <meta
+        name="author"
+        content="Abbas Khizar"
+    >
+
+    <meta
+        name="theme-color"
+        content="#020617"
+    >
+
+    <title>
+        Abbas Khizar | Full Stack Web Developer
+    </title>
+
+
+    <!-- ================= STYLES ================= -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
 </head>
+
 
 <body>
 
-    <!-- ================= NAVIGATION ================= -->
 
-    <nav>
-        <h2>Abbas<span>.</span></h2>
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
 
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </nav>
+    <header>
 
+        <nav aria-label="Main Navigation">
+
+            <a
+                href="#home"
+                class="logo"
+                aria-label="Abbas Khizar Home"
+            >
+                <h2>
+                    Abbas<span>.</span>
+                </h2>
+            </a>
+
+
+            <div class="nav-links">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#skills">
+                    Skills
+                </a>
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#education">
+                    Education
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
 
     <main>
 
-        <!-- ================= HERO ================= -->
 
-        <section id="home" class="hero">
+        <!-- =================================================
+             HERO SECTION
+        ================================================== -->
+
+        <section
+            id="home"
+            class="hero"
+            aria-labelledby="hero-title"
+        >
 
             <div class="hero-content">
+
+
+                <!-- HERO TEXT -->
 
                 <div class="hero-text">
 
@@ -42,57 +125,91 @@
                         HELLO, I'M ABBAS
                     </p>
 
-                    <h1>
+
+                    <h1 id="hero-title">
                         Abbas Khizar
                     </h1>
+
 
                     <h2>
                         Full Stack Web Developer
                     </h2>
 
+
                     <p class="hero-description">
-                        I build modern, responsive and user-friendly
-                        web applications. I enjoy turning ideas into
-                        real digital experiences using modern
-                        frontend, backend and database technologies.
+
+                        I build modern, responsive and
+                        user-focused web applications.
+
+                        I enjoy transforming ideas into
+                        real digital experiences using
+                        modern frontend, backend,
+                        database and AI technologies.
+
                     </p>
+
+
+                    <!-- HERO ACTIONS -->
 
                     <div class="hero-buttons">
 
-                        <a href="#projects" class="button">
+                        <a
+                            href="#projects"
+                            class="button"
+                        >
                             View My Work
                         </a>
 
-                        <a href="#contact" class="button secondary-button">
+
+                        <a
+                            href="#contact"
+                            class="button secondary-button"
+                        >
                             Let's Talk
                         </a>
 
-                        <a href="documents/Resume.pdf" class="button" download>
+
+                        <a
+                            href="documents/Resume.pdf"
+                            class="button"
+                            download
+                        >
                             Download CV
                         </a>
 
                     </div>
 
-                    <div class="social-links">
+
+                    <!-- SOCIAL LINKS -->
+
+                    <div
+                        class="social-links"
+                        aria-label="Social Links"
+                    >
 
                         <a
                             href="https://github.com/khizar564"
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="GitHub"
+                            title="Visit my GitHub profile"
                         >
-                            GitHub
+                            GitHub ↗
                         </a>
 
-                        <a href="#" title="LinkedIn">
-                            LinkedIn
+
+                        <a
+                            href="#"
+                            title="LinkedIn profile"
+                        >
+                            LinkedIn ↗
                         </a>
+
 
                         <a
                             href="mailto:toorikhan2@gmail.com"
-                            title="Email"
+                            title="Send me an email"
                         >
-                            Email
+                            Email ↗
                         </a>
 
                     </div>
@@ -100,39 +217,68 @@
                 </div>
 
 
-                <div class="profile-card">
+                <!-- PROFILE CARD -->
 
-                    <div class="profile-circle">
+                <aside
+                    class="profile-card"
+                    aria-label="Abbas Khizar Profile"
+                >
+
+                    <div
+                        class="profile-circle"
+                        aria-hidden="true"
+                    >
                         AK
                     </div>
+
 
                     <h3>
                         Abbas Khizar
                     </h3>
 
+
                     <p>
                         Computer Science Student
                     </p>
 
+
                     <div class="profile-info">
 
-                        <span>💻 Web Development</span>
-                        <span>🚀 Building Projects</span>
-                        <span>🤖 AI & Technology</span>
-                        <span>📚 Always Learning</span>
+                        <span>
+                            💻 Web Development
+                        </span>
+
+                        <span>
+                            🚀 Building Projects
+                        </span>
+
+                        <span>
+                            🤖 AI & Technology
+                        </span>
+
+                        <span>
+                            📚 Always Learning
+                        </span>
 
                     </div>
 
-                </div>
+                </aside>
 
             </div>
 
         </section>
 
 
-        <!-- ================= ABOUT ================= -->
 
-        <section id="about" class="about-section">
+        <!-- =================================================
+             ABOUT SECTION
+        ================================================== -->
+
+        <section
+            id="about"
+            class="about-section"
+            aria-labelledby="about-title"
+        >
 
             <div class="section-heading">
 
@@ -140,74 +286,111 @@
                     GET TO KNOW ME
                 </p>
 
-                <h2>
+                <h2 id="about-title">
                     About Me
                 </h2>
+
+                <p>
+                    A Computer Science student focused on
+                    building practical software and modern
+                    digital experiences.
+                </p>
 
             </div>
 
 
             <div class="about-content">
 
-                <div class="about-text">
+
+                <!-- ABOUT TEXT -->
+
+                <article class="about-text">
 
                     <h3>
                         I'm Abbas Khizar
                     </h3>
 
-                    <p>
-                        I am a Computer Science student and an aspiring
-                        Full Stack Web Developer who enjoys building
-                        modern websites and web applications.
-                    </p>
 
                     <p>
-                        I am currently developing my skills in frontend
-                        development, backend development, databases,
-                        APIs, and modern software development tools.
+                        I am a Computer Science student and
+                        aspiring Full Stack Web Developer
+                        who enjoys building modern websites,
+                        web applications and digital products.
                     </p>
+
 
                     <p>
-                        My goal is to become a professional Full Stack
-                        Web Developer and build useful, scalable and
-                        user-friendly applications.
+                        I am continuously developing my skills
+                        in frontend development, backend
+                        development, databases, APIs,
+                        cloud technologies and AI-powered
+                        applications.
                     </p>
 
-                </div>
+
+                    <p>
+                        My goal is to become a professional
+                        Full Stack Web Developer and create
+                        useful, scalable and user-friendly
+                        software that solves real problems.
+                    </p>
 
 
-                <div class="education-card">
+                    <p>
+                        I believe in learning by building,
+                        which is why I continuously work on
+                        personal projects to improve my
+                        technical skills.
+                    </p>
+
+                </article>
+
+
+                <!-- EDUCATION SUMMARY -->
+
+                <aside class="education-card">
 
                     <p class="card-label">
                         EDUCATION
                     </p>
 
+
                     <h3>
                         BS Computer Science
                     </h3>
+
 
                     <h4>
                         COMSATS University Islamabad
                     </h4>
 
+
                     <p>
                         Abbottabad Campus
                     </p>
+
 
                     <p>
                         Final Year Computer Science Student
                     </p>
 
-                </div>
+                </aside>
 
             </div>
 
         </section>
 
 
-        <!-- ================= SKILLS ================= -->
 
-        <section id="skills" class="skills-section">
+        <!-- =================================================
+             SKILLS SECTION
+        ================================================== -->
+
+        <section
+            id="skills"
+            class="skills-section"
+            aria-labelledby="skills-title"
+        >
 
             <div class="section-heading">
 
@@ -215,36 +398,117 @@
                     MY TECHNOLOGIES
                 </p>
 
-                <h2>
-                    Skills
+                <h2 id="skills-title">
+                    Skills & Technologies
                 </h2>
+
+                <p>
+                    Technologies and tools I use while
+                    building web applications and software
+                    projects.
+                </p>
 
             </div>
 
 
             <div class="skills">
 
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>React</span>
-                <span>Next.js</span>
-                <span>Node.js</span>
-                <span>NestJS</span>
-                <span>Python</span>
-                <span>PostgreSQL</span>
-                <span>Git</span>
-                <span>REST APIs</span>
-                <span>Firebase</span>
+
+                <!-- FRONTEND -->
+
+                <div class="skill-category">
+
+                    <h3>
+                        Frontend
+                    </h3>
+
+                    <div class="skill-items">
+
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BACKEND -->
+
+                <div class="skill-category">
+
+                    <h3>
+                        Backend
+                    </h3>
+
+                    <div class="skill-items">
+
+                        <span>Node.js</span>
+                        <span>NestJS</span>
+                        <span>REST APIs</span>
+                        <span>Python</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DATABASE -->
+
+                <div class="skill-category">
+
+                    <h3>
+                        Database & Cloud
+                    </h3>
+
+                    <div class="skill-items">
+
+                        <span>PostgreSQL</span>
+                        <span>Firebase</span>
+                        <span>LocalStorage</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TOOLS -->
+
+                <div class="skill-category">
+
+                    <h3>
+                        Tools & Technologies
+                    </h3>
+
+                    <div class="skill-items">
+
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>APIs</span>
+                        <span>AI Integration</span>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- ================= PROJECTS ================= -->
 
-        <section id="projects" class="projects-section">
+        <!-- =================================================
+             PROJECTS SECTION
+        ================================================== -->
+
+        <section
+            id="projects"
+            class="projects-section"
+            aria-labelledby="projects-title"
+        >
 
             <div class="section-heading">
 
@@ -252,9 +516,15 @@
                     MY WORK
                 </p>
 
-                <h2>
-                    Projects
+                <h2 id="projects-title">
+                    Featured Projects
                 </h2>
+
+                <p>
+                    A selection of projects I've built while
+                    developing my skills in web development,
+                    full-stack development and AI.
+                </p>
 
             </div>
 
@@ -262,115 +532,166 @@
             <div class="project-container">
 
 
-                <!-- ================= PROJECT 1 ================= -->
+                <!-- =================================================
+                     PROJECT 1 — FEATURED
+                ================================================== -->
 
-                <div class="project-card">
+                <article class="project-card featured-project">
 
-                    <div class="project-number">
-                        01
-                    </div>
+                    <div>
 
-                    <h3>
-                        AERONA
-                    </h3>
-
-                    <p class="project-type">
-                        AI-Powered Travel Platform
-                    </p>
-
-                    <p>
-                        A full-stack travel platform designed to
-                        provide hotel reservations, Umrah packages,
-                        intelligent travel planning and a smooth
-                        digital travel experience.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Flutter</span>
-                        <span>NestJS</span>
-                        <span>PostgreSQL</span>
-                        <span>AI</span>
-
-                    </div>
-
-                    <button onclick="showMessage()">
-                        View Project
-                    </button>
-
-                </div>
+                        <div class="project-number">
+                            01
+                        </div>
 
 
-                <!-- ================= PROJECT 2 ================= -->
+                        <p class="project-type">
+                            FINAL YEAR PROJECT
+                        </p>
 
-                <div class="project-card">
 
-                    <div class="project-number">
-                        02
-                    </div>
+                        <h3>
+                            AERONA
+                        </h3>
 
-                    <h3>
-                        Portfolio Website
-                    </h3>
 
-                    <p class="project-type">
-                        Personal Web Project
-                    </p>
+                        <p>
+                            AI-powered travel platform designed
+                            to provide hotel reservations,
+                            Umrah packages, intelligent travel
+                            planning and a smooth digital
+                            travel experience.
+                        </p>
 
-                    <p>
-                        A modern personal portfolio website created
-                        to showcase my skills, education, projects
-                        and journey as a Computer Science student.
-                    </p>
 
-                    <div class="project-tags">
+                        <div class="project-tags">
 
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
+                            <span>Flutter</span>
+                            <span>NestJS</span>
+                            <span>PostgreSQL</span>
+                            <span>Firebase</span>
+                            <span>AI</span>
+
+                        </div>
 
                     </div>
 
-                    <button onclick="showMessage()">
-                        View Project
-                    </button>
 
-                </div>
+                    <div class="project-buttons">
 
-
-                <!-- ================= PROJECT 3 ================= -->
-
-                <div class="project-card">
-
-                    <div class="project-number">
-                        03
-                    </div>
-
-                    <h3>
-                        MoneyWise — Expense Tracker
-                    </h3>
-
-                    <p class="project-type">
-                        Personal Finance Web App
-                    </p>
-
-                    <p>
-                        A modern personal finance and expense tracking
-                        web application built with HTML, CSS and JavaScript.
-                        Users can track income, expenses, categories,
-                        dates and monthly spending with interactive
-                        financial charts.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Chart.js</span>
-                        <span>LocalStorage</span>
+                        <button
+                            type="button"
+                            onclick="showMessage()"
+                        >
+                            View Project
+                        </button>
 
                     </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     PROJECT 2
+                ================================================== -->
+
+                <article class="project-card">
+
+                    <div>
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+
+                        <p class="project-type">
+                            PERSONAL WEB PROJECT
+                        </p>
+
+
+                        <h3>
+                            Portfolio Website
+                        </h3>
+
+
+                        <p>
+                            A modern personal portfolio designed
+                            to showcase my skills, education,
+                            projects and journey as a Computer
+                            Science student.
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-buttons">
+
+                        <button
+                            type="button"
+                            onclick="showMessage()"
+                        >
+                            View Project
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     PROJECT 3
+                ================================================== -->
+
+                <article class="project-card">
+
+                    <div>
+
+                        <div class="project-number">
+                            03
+                        </div>
+
+
+                        <p class="project-type">
+                            PERSONAL FINANCE WEB APP
+                        </p>
+
+
+                        <h3>
+                            MoneyWise
+                        </h3>
+
+
+                        <p>
+                            A personal finance and expense tracking
+                            application for managing income,
+                            expenses, categories and monthly
+                            spending with interactive charts.
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                            <span>LocalStorage</span>
+
+                        </div>
+
+                    </div>
+
 
                     <div class="project-buttons">
 
@@ -383,6 +704,7 @@
                             Live Demo ↗
                         </a>
 
+
                         <a
                             href="https://github.com/khizar564/project-03-expense-tracker"
                             target="_blank"
@@ -394,40 +716,52 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
-                <!-- ================= PROJECT 4 ================= -->
 
-                <div class="project-card">
+                <!-- =================================================
+                     PROJECT 4
+                ================================================== -->
 
-                    <div class="project-number">
-                        04
+                <article class="project-card">
+
+                    <div>
+
+                        <div class="project-number">
+                            04
+                        </div>
+
+
+                        <p class="project-type">
+                            PRODUCTIVITY WEB APP
+                        </p>
+
+
+                        <h3>
+                            TaskFlow
+                        </h3>
+
+
+                        <p>
+                            A productivity application with task
+                            management, search, filters,
+                            LocalStorage, progress tracking,
+                            task editing and theme support.
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>LocalStorage</span>
+
+                        </div>
+
                     </div>
 
-                    <h3>
-                        TaskFlow To-Do App
-                    </h3>
-
-                    <p class="project-type">
-                        Productivity Web App
-                    </p>
-
-                    <p>
-                        A modern productivity application with
-                        task management, search, filters,
-                        LocalStorage, progress tracking,
-                        task editing and dark/light mode.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>LocalStorage</span>
-
-                    </div>
 
                     <div class="project-buttons">
 
@@ -440,6 +774,7 @@
                             Live Demo ↗
                         </a>
 
+
                         <a
                             href="https://github.com/khizar564/taskflow-todo-app"
                             target="_blank"
@@ -451,40 +786,52 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
-                <!-- ================= PROJECT 5 ================= -->
 
-                <div class="project-card">
+                <!-- =================================================
+                     PROJECT 5
+                ================================================== -->
 
-                    <div class="project-number">
-                        05
+                <article class="project-card">
+
+                    <div>
+
+                        <div class="project-number">
+                            05
+                        </div>
+
+
+                        <p class="project-type">
+                            MOVIE DISCOVERY WEB APP
+                        </p>
+
+
+                        <h3>
+                            Movie Explorer
+                        </h3>
+
+
+                        <p>
+                            A responsive movie discovery application
+                            that allows users to search movies,
+                            explore popular titles and categories,
+                            and view detailed movie information.
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>TMDB API</span>
+
+                        </div>
+
                     </div>
 
-                    <h3>
-                        Movie Explorer
-                    </h3>
-
-                    <p class="project-type">
-                        Movie Discovery Web App
-                    </p>
-
-                    <p>
-                        A responsive movie discovery application that
-                        allows users to search movies, explore popular
-                        titles and categories, and view detailed movie
-                        information. Built with Next.js and the TMDB API.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Next.js</span>
-                        <span>TypeScript</span>
-                        <span>Tailwind CSS</span>
-                        <span>TMDB API</span>
-
-                    </div>
 
                     <div class="project-buttons">
 
@@ -497,6 +844,7 @@
                             Live Demo ↗
                         </a>
 
+
                         <a
                             href="https://github.com/khizar564/movie-explorer"
                             target="_blank"
@@ -508,43 +856,54 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
-                <!-- ================= PROJECT 6 ================= -->
 
-                <div class="project-card">
+                <!-- =================================================
+                     PROJECT 6
+                ================================================== -->
 
-                    <div class="project-number">
-                        06
+                <article class="project-card">
+
+                    <div>
+
+                        <div class="project-number">
+                            06
+                        </div>
+
+
+                        <p class="project-type">
+                            AI-POWERED RECIPE ASSISTANT
+                        </p>
+
+
+                        <h3>
+                            Recipe Finder + Kitchen AI
+                        </h3>
+
+
+                        <p>
+                            A modern recipe discovery application
+                            enhanced with AI assistance for recipe
+                            generation, ingredient substitutions,
+                            cooking problems and practical cooking
+                            guidance.
+                        </p>
+
+
+                        <div class="project-tags">
+
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>Gemini AI</span>
+                            <span>REST API</span>
+                            <span>Tailwind CSS</span>
+
+                        </div>
+
                     </div>
 
-                    <h3>
-                        Recipe Finder + Kitchen AI
-                    </h3>
-
-                    <p class="project-type">
-                        AI-Powered Recipe & Cooking Assistant
-                    </p>
-
-                    <p>
-                        A modern recipe discovery web application
-                        enhanced with Kitchen AI. The assistant can
-                        create recipes from available ingredients,
-                        suggest substitutions, adjust recipes, solve
-                        cooking problems and provide practical
-                        cooking guidance.
-                    </p>
-
-                    <div class="project-tags">
-
-                        <span>Next.js</span>
-                        <span>TypeScript</span>
-                        <span>Gemini AI</span>
-                        <span>REST API</span>
-                        <span>Tailwind CSS</span>
-
-                    </div>
 
                     <div class="project-buttons">
 
@@ -557,6 +916,7 @@
                             Live Demo ↗
                         </a>
 
+
                         <a
                             href="https://github.com/khizar564/recipe-finder"
                             target="_blank"
@@ -568,7 +928,7 @@
 
                     </div>
 
-                </div>
+                </article>
 
 
             </div>
@@ -576,9 +936,16 @@
         </section>
 
 
-        <!-- ================= EDUCATION ================= -->
 
-        <section id="education" class="education-section">
+        <!-- =================================================
+             EDUCATION SECTION
+        ================================================== -->
+
+        <section
+            id="education"
+            class="education-section"
+            aria-labelledby="education-title"
+        >
 
             <div class="section-heading">
 
@@ -586,7 +953,7 @@
                     MY JOURNEY
                 </p>
 
-                <h2>
+                <h2 id="education-title">
                     Education
                 </h2>
 
@@ -595,155 +962,350 @@
 
             <div class="education-timeline">
 
-                <div class="timeline-card">
+                <article class="timeline-card">
 
-                    <div class="timeline-dot"></div>
+                    <div
+                        class="timeline-dot"
+                        aria-hidden="true"
+                    ></div>
+
 
                     <p class="card-label">
                         CURRENT
                     </p>
 
+
                     <h3>
                         BS Computer Science
                     </h3>
+
 
                     <h4>
                         COMSATS University Islamabad
                     </h4>
 
+
                     <p>
                         Abbottabad Campus
                     </p>
+
 
                     <p>
                         Final Year Computer Science Student
                     </p>
 
-                </div>
+                </article>
 
             </div>
 
         </section>
 
 
-        <!-- ================= CONTACT ================= -->
-<!-- ================= CONTACT ================= -->
 
-<section id="contact" class="contact-section">
+        <!-- =================================================
+             CONTACT SECTION
+        ================================================== -->
 
-    <div class="section-heading">
+        <section
+            id="contact"
+            class="contact-section"
+            aria-labelledby="contact-title"
+        >
 
-        <p class="small-text">
-            LET'S CONNECT
-        </p>
+            <div class="section-heading">
 
-        <h2>
-            Contact Me
-        </h2>
-
-        <p>
-            Have a project idea or want to connect?
-            Send me a message.
-        </p>
-
-    </div>
+                <p class="small-text">
+                    LET'S CONNECT
+                </p>
 
 
-    <div class="contact-container">
-
-        <div class="contact-info">
-
-            <h3>
-                Let's build something together.
-            </h3>
-
-            <p>
-                I am always interested in learning,
-                building projects and connecting with
-                people interested in technology.
-            </p>
+                <h2 id="contact-title">
+                    Let's Work Together
+                </h2>
 
 
-            <div class="contact-item">
-
-                <strong>
-                    Email
-                </strong>
-
-                <span>
-                    toorikhan2@gmail.com
-                </span>
+                <p>
+                    Have a project idea, opportunity or
+                    question? I'd love to hear from you.
+                </p>
 
             </div>
 
 
-            <div class="contact-item">
+            <div class="contact-container">
 
-                <strong>
-                    Role
-                </strong>
 
-                <span>
-                    Full Stack Web Developer
-                </span>
+                <!-- CONTACT INFORMATION -->
+
+                <div class="contact-info">
+
+                    <h3>
+                        Let's build something together.
+                    </h3>
+
+
+                    <p>
+                        I am always interested in learning,
+                        building projects and connecting with
+                        people interested in technology.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <strong>
+                            Email
+                        </strong>
+
+                        <span>
+                            toorikhan2@gmail.com
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <strong>
+                            Role
+                        </strong>
+
+                        <span>
+                            Full Stack Web Developer
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <strong>
+                            Location
+                        </strong>
+
+                        <span>
+                            Pakistan
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- CONTACT FORM -->
+
+                <form
+                    id="contactForm"
+                    action="https://formspree.io/f/xqpzogop"
+                    method="POST"
+                >
+
+                    <label
+                        for="name"
+                        class="sr-only"
+                    >
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your Name"
+                        autocomplete="name"
+                        required
+                    >
+
+
+                    <label
+                        for="email"
+                        class="sr-only"
+                    >
+                        Your Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your Email"
+                        autocomplete="email"
+                        required
+                    >
+
+
+                    <label
+                        for="message"
+                        class="sr-only"
+                    >
+                        Your Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Tell me about your project..."
+                        required
+                    ></textarea>
+
+
+                    <button type="submit">
+                        Send Message →
+                    </button>
+
+
+                    <p id="formMessage"></p>
+
+                </form>
 
             </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         AI ASSISTANT
+    ====================================================== -->
+
+    <aside
+        class="ai-assistant"
+        aria-label="Abbas AI Assistant"
+    >
+
+        <button
+            id="aiButton"
+            class="ai-button"
+            type="button"
+            aria-label="Open Abbas AI Assistant"
+        >
+            🤖 Meet Abbas AI
+        </button>
+
+
+        <div
+            id="aiChat"
+            class="ai-chat"
+            role="dialog"
+            aria-label="Abbas AI Assistant Chat"
+            aria-hidden="true"
+        >
+
+
+            <!-- AI HEADER -->
+
+            <div class="ai-header">
+
+                <div>
+
+                    <strong>
+                        Meet Abbas AI
+                    </strong>
+
+                    <span>
+                        Abbas's Personal Assistant
+                    </span>
+
+                </div>
+
+
+                <button
+                    id="closeAi"
+                    class="ai-close"
+                    type="button"
+                    aria-label="Close AI Assistant"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+
+            <!-- AI MESSAGES -->
+
+            <div
+                id="aiMessages"
+                class="ai-messages"
+                aria-live="polite"
+            >
+
+                <div class="ai-message bot-message">
+
+                    👋 Hi! I'm Abbas's AI assistant.
+
+                    <br><br>
+
+                    Ask me anything about Abbas,
+                    his skills, education, projects,
+                    experience or goals.
+
+                </div>
+
+            </div>
+
+
+
+            <!-- AI INPUT -->
+
+            <form
+                id="aiForm"
+                class="ai-input-area"
+            >
+
+                <label
+                    for="aiInput"
+                    class="sr-only"
+                >
+                    Ask Abbas AI a question
+                </label>
+
+
+                <input
+                    type="text"
+                    id="aiInput"
+                    placeholder="Ask me something..."
+                    autocomplete="off"
+                    required
+                >
+
+
+                <button
+                    type="submit"
+                    aria-label="Send message"
+                >
+                    ➤
+                </button>
+
+            </form>
 
         </div>
 
+    </aside>
 
-        <form
-            id="contactForm"
-            action="https://formspree.io/f/xqpzogop"
-            method="POST"
-        >
 
-            <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your Name"
-                required
-            >
 
-            <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Your Email"
-                required
-            >
-
-            <textarea
-                id="message"
-                name="message"
-                placeholder="Your Message"
-                required
-            ></textarea>
-
-            <button type="submit">
-                Send Message
-            </button>
-
-            <p id="formMessage"></p>
-
-        </form>
-
-    </div>
-
-</section>
-
-    <!-- ================= FOOTER ================= -->
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
 
     <footer>
 
         <p>
             © 2026 Abbas Khizar.
-            Built with passion and code.
+            Built with passion, creativity and code.
         </p>
 
     </footer>
 
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
 
     <script src="script.js"></script>
 
